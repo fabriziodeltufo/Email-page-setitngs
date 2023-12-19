@@ -1,0 +1,29 @@
+/* plugin-style.css  */
+
+#rhubpage_cotd_field{
+  width:  800px;
+}
+
+#rhubpage_hea_field{
+  width:  800px;
+}
+
+#btn-Upload{
+  color: white;
+  background: #2370b1;
+  border: 0px;
+  padding: 8px 17px;
+  border-radius: 3px;
+  display: block;
+  margin-top : 20px;
+  cursor: pointer;
+}
+
+#btn-Upload:hover{
+  background: #0f62a6;
+
+}
+
+#sourceURL{
+  width: 500px;
+}
