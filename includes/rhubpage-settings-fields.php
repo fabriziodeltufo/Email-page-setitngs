@@ -3,7 +3,6 @@
 HEA /COTD Settings Page
 */
 
-add_action( 'admin_init', 'rhubpage_settings_cb' );
 
 function rhubpage_settings_cb() {
 
@@ -123,3 +122,5 @@ function rhubpage_settings_cb() {
   );
 
 }
+
+add_action( 'admin_init', 'rhubpage_settings_cb' );
