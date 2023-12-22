@@ -3,10 +3,6 @@
 RHUB Menu + Form.
 */
 
-// HOOK to create rhub page settings //
-add_action( 'admin_menu', 'rhubpage_settings_page' );
-
-
 // MENU PLUGIN DEFINITION
 function rhubpage_settings_page()
 {
@@ -19,8 +15,18 @@ function rhubpage_settings_page()
         'dashicons-admin-site', // plugin menu icon
         0 // menu position in the sidebar
     );
-
 }
+add_action( 'admin_menu', 'rhubpage_settings_page' );
+
+
+
+
+
+
+
+
+
+
 
 
 // HTML FORM PAGE DEFINITION
@@ -31,6 +37,4 @@ function rhubpage_settings_page_markup()
       return;
     }
     include( WPPLUGIN_DIR . 'templates/admin/rhubpage-form-page.php');
-
-
 }
