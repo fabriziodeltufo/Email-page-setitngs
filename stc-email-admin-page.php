@@ -1,6 +1,6 @@
 <?php
   /*
-  Plugin Name:    Admin Emails Page Setup
+  Plugin Name:    STC RHUB  Coordinators Emails Page Setup
   Plugin URI:     https://github.com/fabriziodeltufo/stc-emails-admin-page
   Description:    Coordinators Emails Page Settings for SaveTheChildren Resource hub Website.
   Version: 1.0

@@ -11,8 +11,8 @@ add_action( 'admin_menu', 'rhubpage_settings_page' );
 function rhubpage_settings_page()
 {
     add_menu_page(
-        __( 'Save The Children - Resource Hub Page Settings', 'rhubpage' ), // page title
-        __( 'RHub Settings', 'rhubpage' ), // menu title
+        __( 'SaveTheChildren Coordinators Emails', 'rhubpage' ), // page title
+        __( 'STC Coordinators Emails', 'rhubpage' ), // menu title
         'manage_options', // capability
         'rhubpage', // plugin text domain / menu-slug
         'rhubpage_settings_page_markup', // callback fx to output the content (form in the page)

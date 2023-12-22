@@ -74,7 +74,7 @@ function rhubpage_settings_cb() {
     //
     // }
 
-    echo '<input REQUIRED type="text" id="rhubpage_cotd_field" name="rhubpage_settings[cotd_field]" value="' . $cotd_field . '" />';
+    echo '<input REQUIRED type="text" id="rhubpage_cotd_field" name="rhubpage_settings_email[cotd_field]" value="' . $cotd_field . '" />';
 
   }
 
@@ -99,7 +99,7 @@ function rhubpage_settings_cb() {
 
   function rhubpage_settings_hea_field_callback() {
 
-    $options = get_option( 'rhubpage_settings' );
+    $options = get_option( 'rhubpage_settings_email' );
 
   	$hea_field = '';
   	if( isset( $options[ 'hea_field' ] ) ) {
@@ -111,7 +111,7 @@ function rhubpage_settings_cb() {
     //
     // }
 
-    echo '<input REQUIRED type="text" id="rhubpage_hea_field" name="rhubpage_settings[hea_field]" value="' . $hea_field . '" />';
+    echo '<input REQUIRED type="text" id="rhubpage_hea_field" name="rhubpage_settings_email[hea_field]" value="' . $hea_field . '" />';
 
   }
 
@@ -119,7 +119,7 @@ function rhubpage_settings_cb() {
 // REGISTERING THE SETTINGS //
   register_setting(
     'rhubpage_settings',
-    'rhubpage_settings'
+    'rhubpage_settings_email'
   );
 
 }
